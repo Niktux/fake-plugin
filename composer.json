@@ -1,0 +1,18 @@
+{
+    "name": "onyx/fake-plugin",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nicolas Le Nardou",
+            "email": "nico.ln@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Onyx\\Fake\\": "src"
+        }
+    },
+    "require": {
+        "onyx/core": "dev-plugins@dev"
+    }
+}
